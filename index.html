@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="logo">NK</span>
+            <span class="left">Nishant's Portfolio</span>
+            <span class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is &nbsp;&nbsp;&nbsp; <span id="element"></span>
+                <div>and i am a web developer</div>
+            </div>
+            <div class="rightSection">
+               <img src="background-pic.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" id="html-dev" src="html dev.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem ad. Voluptatem fuga obcaecati tempora nesciunt, quasi doloremque cupiditate tempore, culpa, nam pariatur blanditiis maiores error ab ratione! Dolores, nemo?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="java-dev" src="java dev.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem ad. Voluptatem fuga obcaecati tempora nesciunt, quasi doloremque cupiditate tempore, culpa, nam pariatur blanditiis maiores error ab ratione! Dolores, nemo?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="frontend-dev" src="frontend dev.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Developer (2014-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem ad. Voluptatem fuga obcaecati tempora nesciunt, quasi doloremque cupiditate tempore, culpa, nam pariatur blanditiis maiores error ab ratione! Dolores, nemo?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="backend-dev" src="backend dev.png" alt="">
+                    <div class="vertical-title">
+                        Backend Developer (2017-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem ad. Voluptatem fuga obcaecati tempora nesciunt, quasi doloremque cupiditate tempore, culpa, nam pariatur blanditiis maiores error ab ratione! Dolores, nemo?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="fullstack-dev" src="fullstack dev.png" alt="">
+                    <div class="vertical-title">
+                        Full-Stack Developer (2020-now)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem ad. Voluptatem fuga obcaecati tempora nesciunt, quasi doloremque cupiditate tempore, culpa, nam pariatur blanditiis maiores error ab ratione! Dolores, nemo?
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Nishant'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>
